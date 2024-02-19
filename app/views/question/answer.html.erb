@@ -1,0 +1,21 @@
+<div class=container>
+
+<h1>Stupid Coaching</h1>
+
+
+<div class="left-border-grey">
+  <blockquote class="blockquote">
+    <p><%= @question %></p>
+  </blockquote>
+  <footer class="blockquote-footer"><em>You</em></footer>
+</div>
+
+<div class="left-border-grey background-yellow alert alert-warning">
+<blockquote class="blockquote">
+    <p> <strong><%= @answer %></strong> </p>
+  </blockquote>
+  <footer class="blockquote-footer"><em>You</em></footer>
+</div>
+
+<div class="no-underline"!> <%=link_to "Ask another question", ask_path%> </div>
+</div>
